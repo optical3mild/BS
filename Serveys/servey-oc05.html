@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>소프트웨어 기술에 대한 의견설문</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body { padding-bottom: 30px;}
+      header { text-align: center;}
+      section { margin: 20px 0 20px 0;}
+      .footerCopyright { font: bold; display: inline-block;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <header>
+          <div class="page-header">
+            <h1><b>설&nbsp;문&nbsp;지</b></h1>
+          </div>
+          <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+          <hr>
+        </header>
+        <section>
+          <form>
+            <article><b>학년&nbsp;&nbsp;&nbsp;</b>
+              <input type="radio" name="grade_year" value="1" checked>1학년&nbsp;
+              <input type="radio" name="grade_year" value="2">2학년&nbsp;
+              <input type="radio" name="grade_year" value="3">3학년&nbsp;
+              <input type="radio" name="grade_year" value="4">4학년&nbsp;
+            </article><br>
+            <article><b>성별&nbsp;&nbsp;&nbsp;</b>
+              <input type="radio" name="gender" value="1">남&nbsp;
+              <input type="radio" name="gender" value="2">여&nbsp;
+            </article><br>
+            <article><b>관심분야&nbsp;&nbsp;&nbsp;</b>
+              <select name="interested_field">
+                <option value="1">모바일 소프트웨어</option>&nbsp;
+                <option value="2">IoT</option>&nbsp;
+                <option value="3">빅데이터</option>&nbsp;
+                <option value="4">머신러닝</option>&nbsp;
+              </select>
+            </article><br>
+            <article><b>진로(다중선택)&nbsp;&nbsp;&nbsp;</b>
+
+              <input type="radio" name="choosen_field" value="1" checked>개발&nbsp;
+              <input type="radio" name="choosen_field" value="2">기획&nbsp;
+              <input type="radio" name="choosen_field" value="3">영업&nbsp;
+              <input type="radio" name="choosen_field" value="4">창업&nbsp;
+            </article><br>
+            <article><b>남기고 싶은 말</b><br>
+              <textarea class="form-control" rows="10" cols="60" placeholder="글을 남겨주세요"></textarea>
+            </article><br>
+            <button type="submit" class="btn btn-default">제출합니다.</button>
+          </form>
+        </section>
+        <div class="col-md-3"></div>
+      </div>
+
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container-fluid">
+        <div class="footerCopyright"><p>Copyright 2019 by Jeongwoo</p></div>
+      </div>
+    </footer>
+
+  <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
